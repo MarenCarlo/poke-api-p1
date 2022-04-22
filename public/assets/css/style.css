@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+
+* {
+    transition: all 0.5s;
+}
+
+
+/* FONTS */
+
+@font-face {
+    font-family: "Titles";
+    src: url("../fonts/AldotheApache.ttf") format("truetype");
+}
+
+
+/* NAV */
+
+.nav {
+    background-color: #000000;
+    border-bottom: solid 1px #ffffff;
+    box-shadow: 4px 6px 40px 5px#000000b6;
+}
+
+.brand-logo {
+    font-family: Titles;
+}
+
+.link:hover {
+    background-color: #343434;
+}
+
+
+/* HEADER */
+
+.section {
+    margin: 0;
+    padding: 0;
+}
+
+#portada {
+    height: 100vh;
+}
+
+#parallax_X {
+    height: 100vh;
+}
+
+.parallax img {
+    filter: blur(15px);
+}
+
+.title_header {
+    margin-top: 8rem;
+    font-family: Titles;
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 5px 8px 0px 3px #393939;
+}
+
+.subtitle_header {
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 5px 8px 0px 3px #393939;
+}
+
+.title_header:hover {
+    padding: 2%;
+    box-shadow: 5px 15px 0px 3px #393939;
+}
+
+.subtitle_header:hover {
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 5px 15px 0px 3px #393939;
+}
+
+.mc_img {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    border-radius: 50%;
+}
+
+
+/* DESTREZAS */
+
+#destrezas {
+    height: 100vh;
+    margin-top: 15rem;
+}
+
+.destreza_title {
+    font-family: Titles;
+    background-color: #ffffff;
+    box-shadow: 5px 8px 0px 3px #393939;
+    padding: 2%;
+}
+
+.subtitle_header {
+    background-color: #ffffff;
+    padding: 2%;
+    box-shadow: 5px 8px 0px 3px #393939;
+}
